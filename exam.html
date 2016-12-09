@@ -2,41 +2,45 @@
 <html>
  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title>exam</title>
+    <link rel="stylesheet"  type="text/css"  href="exam_style.css">
  </head>
  <body>
     <h1>统一建模语言理论测试</h1>
-    <div>
-	<div>考试科目：统一建模语言</div>
-	<div>时间：100分钟</div>
-	<div>得分：</div>
-	<div>班级（必填）：<input type=text></input></div>
-	<div>学号（必填）：<input type=text></input></div>
-	<div>姓名（必填）：<input type=text></input></div>
+    <div class=header-session>
+        <span class=header-small><lable class=bold-font>考试科目：</lable>统一建模语言</span>
+	<span class=header-small><lable class=bold-font>时间：</lable>100分钟</span>
+	<span class=header-small><lable class=bold-font>得分：</lable></span>
+    </div>
+    <div class=header-session>
+	<span class=header-small><lable class=bold-font>班级（必填）：</lable><input type=text class=input-text></input></span>
+	<span class=header-small><lable class=bold-font>学号（必填）：</lable><input type=text class=input-text></input></span>
+	<span class=header-small><lable class=bold-font>姓名（必填）：</lable><input type=text class=input-text></input></span>
     </div>
     
-    <div>
-        <h3>一、填空题（每空5分，共20分）</h2>
+    <div class=session>
+        <h3 class=session-title>一、填空题（每空5分，共20分）</h3>
 	<ol>
 	  <li>
-	    <span>UML的中文名称时：</span>
-	    <div><input type=text></input></div>
+	    <span class=bold-font>UML的中文名称时：</span>
+	    <div><input type=text class=input-text></input></div>
 	  </li>
 	  <li>
-	    <span>对象最突出的特征是：</span>
+	    <span class=bold-font>对象最突出的特征是：</span>
 	    <div>
-	      <input type=text></input>
-	      <input type=text></input>
-	      <input type=text></input>
+	      <input type=text class=input-text></input>
+	      <input type=text class=input-text></input>
+	      <input type=text class=input-text></input>
 	    </div>
 	  </li>
 	</ol>
     </div>
 
-    <div>
-	<h3>二、选择题（每题10分，共20分）</h3>
+    <div class=session>
+	<h3 class=session-title>二、选择题（每题10分，共20分）</h3>
 	<ol>
 	  <li>
-	    <span>UML与软件工程的关系是：</span>
+	    <span class=bold-font>UML与软件工程的关系是：</span>
 	    <form>
 		<input type=radio name="a">（A）UML就是软件工程</input><br/>
 		<input type=radio name="a">（B）UML参与到软件工程中软件开发过程的几个阶段</input><br/>
@@ -45,7 +49,7 @@
 	    </form>
 	  </li>
 	   <li>
-	    <span>Java语言支持：</span>
+	    <span class=bold-font>Java语言支持：</span>
 	    <form>
 		<input type=radio name="b">（A）单继承</input><br/>
 		<input type=radio name="b">（B）多继承</input><br/>
@@ -56,11 +60,11 @@
 	</ol>
     </div>
 
-    <div>
-	<h3>三、多项选择题（每题10分，共20分）</h3>
+    <div class=session>
+	<h3 class=session-title>三、多项选择题（每题10分，共20分）</h3>
 	<ol>
 	  <li>
-	    <span>用例的粒度分为以下哪三种：</span>
+	    <span class=bold-font>用例的粒度分为以下哪三种：</span>
 	    <form>
 		<input type=checkbox name=c>(A)概述级</input><br/>
 		<input type=checkbox name=c>(B)需求级</input><br/>
@@ -69,7 +73,7 @@
 	    </form>
 	  </li>
 	  <li>
-	    <span>类图由以下哪三部分组成:</span>
+	    <span class=bold-font>类图由以下哪三部分组成:</span>
 	    <form>
 		<input type=checkbox name=d>(A)名称(Name)</input><br/>
 		<input type=checkbox name=d>(B)属性(Attribute)</input><br/>
@@ -80,34 +84,34 @@
 	</ol>
     </div>
 
-    <div>
-	<h3>四、判断题（每题10分，共20分）</h3>
+    <div class=session>
+	<h3 class=session-title>四、判断题（每题10分，共20分）</h3>
 	<ol>
 	  <li>
-		<span>用例图只是用于和客户交流和沟通的，用于确定需求。</span>
-		<input type=radio name=e>对</input>
-		<input type=radio name=e>错</input>
+		<span class=bold-font>用例图只是用于和客户交流和沟通的，用于确定需求。</span>
+		<input type=radio name=e></input><span class=right-text>&#10003</span>
+		<input type=radio name=e></input><span class=wrong-text>&#10005</span>
 	  </li>
  	  <li>
-		<span>在状态图中，终止状态在一个状态图中允许有任意多个。</span>
-		<input type=radio name=f>对</input>
-		<input type=radio name=f>错</input>
+		<span class=bold-font>在状态图中，终止状态在一个状态图中允许有任意多个。</span>
+		<input type=radio name=f></input><span class=right-text>&#10003</span>
+		<input type=radio name=f></input><span class=wrong-text>&#10005</span>
 	  </li>
 	</ol>
     </div>
 
-    <div>
-	<h3>五、简答题（每题20分，共20分）</h3>
+    <div class=session>
+	<h3 class=session-title>五、简答题（每题20分，共20分）</h3>
 	<ol>
 	  <li>
-		<span>简述什么是模型以及模型的表现形式？</span>
+		<span class=bold-font>简述什么是模型以及模型的表现形式？</span><br/>
 		<textarea></textarea>
 	  </li>
 	</ol>
     </div>
 
     <div>
-	<input type=button value=计算分数></input>
+	<input type=button value=计算分数 class=input-button></input>
     </div>
 
  </body>
